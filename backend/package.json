@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc src/index.ts && node src/index.js",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "express": "^4.21.1",
+    "install": "^0.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@helia/http": "^2.0.2",
+    "@helia/strings": "^4.0.1",
+    "@helia/unixfs": "^4.0.1",
+    "@iexec/dataprotector": "2.0.0-beta.10",
+    "@types/cors": "^2.8.17",
+    "cors": "^2.8.5",
+    "helia": "^5.1.1",
+    "pinata": "^1.8.1"
+  }
+}
